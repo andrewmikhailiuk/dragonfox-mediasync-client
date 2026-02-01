@@ -2,11 +2,11 @@
 name = "dragonfox-mediasync-client"
 version = "0.1.0"
 description = "Desktop client for syncing media playback across devices"
-authors = ["you"]
-edition = "2021"
+authors = ["Andrew Mikhailiuk"]
+edition = "2024"
 
 [lib]
-name = "media_sync_client_lib"
+name = "dragonfox_mediasync_client_lib"
 crate-type = ["staticlib", "cdylib", "rlib"]
 
 [build-dependencies]
